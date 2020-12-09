@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Add tooltip CSS and JS libraries.
+ */
+
+/**
+ * Implements hook_page_attachments() to attach CSS and JS to specific pages
+ */
+function unleashed_page_attachments(&$attachments) {
+  $attachments['#attached']['library'][] = 'unleashed/tooltip';
+}
+
+function unleashed_theme_suggestions_alter(array &$suggestions, array $variables, $hook) {
+  if (in_array($hook, array(
+      'field'
+    ))) {
+    $suggestions[] = 'rot';
+  }
+}
+
+/**
+ * Implements hook_theme_registry_alter
+ */
+function unleashed_theme_registry_alter(&$theme_registry) {
+  /*$path = drupal_get_path('module', 'unleashed') . '/templates';
+  $theme_registry['field']['type'] = 'theme';
+  $theme_registry['field']['path'] = $path;
+  $theme_registry['field']['template'] = 'rot';*/
+
+}
+
+

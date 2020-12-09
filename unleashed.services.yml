@@ -1,0 +1,4 @@
+services:
+  unleashed.slugify:
+    class: Drupal\unleashed\Services\CocurSlugify
+

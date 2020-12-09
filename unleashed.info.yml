@@ -1,0 +1,9 @@
+name: Unleashed
+description: ROT-13 field formatter.
+package: Custom
+
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:text

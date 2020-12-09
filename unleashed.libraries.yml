@@ -1,0 +1,10 @@
+tooltip:
+  version: 1.x
+  css:
+    theme:
+      css/tooltip.css: {}
+  js:
+    js/tooltip.js: {}
+    js/tooltip-config.js: {}
+  dependencies:
+    - core/jquery

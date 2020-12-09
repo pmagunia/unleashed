@@ -1,0 +1,2 @@
+Since I do not have access to the root composer.json file, please ensure that
+`cocur/slugify` package in available to this module.

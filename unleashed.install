@@ -1,0 +1,7 @@
+<?php
+/*
+ * Implements hook_install().
+*/
+function unleashed_install() {
+  \Drupal::messenger()->addStatus('Installation note: Please ensure that cocur/slugify has been installed.');
+}

@@ -1,0 +1,9 @@
+{
+  "name": "drupal/unleashed",
+  "description": "Demo project for interview",
+  "type": "drupal-library",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "cocur/slugify": "4.*"
+  }
+}
